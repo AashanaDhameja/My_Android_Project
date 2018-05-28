@@ -1,0 +1,55 @@
+{
+  "project_info": {
+    "project_number": "109206577219",
+    "firebase_url": "https://bakeology-82ae6.firebaseio.com",
+    "project_id": "bakeology-82ae6",
+    "storage_bucket": "bakeology-82ae6.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:109206577219:android:5f216ca80767e90c",
+        "android_client_info": {
+          "package_name": "com.example.hp.bakeology"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "109206577219-8a3guv03evfl20osft8rncg6l5d2oeg6.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.example.hp.bakeology",
+            "certificate_hash": "e51b8eb690c33b8405c1e49117cdb9e656581cfb"
+          }
+        },
+        {
+          "client_id": "109206577219-bti2vb46q83stu36k30np8i6q0e969pa.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyBMO0PjR0MOZHegSbKpndG3kt0jhWphKpc"
+        }
+      ],
+      "services": {
+        "analytics_service": {
+          "status": 1
+        },
+        "appinvite_service": {
+          "status": 2,
+          "other_platform_oauth_client": [
+            {
+              "client_id": "109206577219-bti2vb46q83stu36k30np8i6q0e969pa.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        },
+        "ads_service": {
+          "status": 2
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

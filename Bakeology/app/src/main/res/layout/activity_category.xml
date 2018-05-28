@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.constraint.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+
+    android:background="#F5A3B7"
+    tools:context="com.example.hp.bakeology.Category">
+
+  <RelativeLayout
+      android:layout_width="364dp"
+      android:layout_height="501dp"
+      tools:layout_editor_absoluteX="10dp"
+      tools:layout_editor_absoluteY="-1dp">
+
+    <Button
+        android:id="@+id/button6"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="53dp"
+
+
+        android:background="@android:color/holo_blue_dark"
+        android:onClick="sel_cat"
+        android:text="Add Category"
+        tools:layout_editor_absoluteX="228dp"
+        tools:layout_editor_absoluteY="89dp"
+        android:layout_above="@+id/button10"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true" />
+
+    <Button
+        android:id="@+id/button10"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+
+
+        android:layout_marginBottom="169dp"
+        android:background="@android:color/holo_blue_dark"
+        android:onClick="add_cat"
+        android:text="Select Category"
+        tools:layout_editor_absoluteX="32dp"
+        tools:layout_editor_absoluteY="89dp"
+        android:layout_alignParentBottom="true"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true" />
+  </RelativeLayout>
+</android.support.constraint.ConstraintLayout>

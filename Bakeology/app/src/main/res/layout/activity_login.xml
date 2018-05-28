@@ -1,0 +1,107 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.constraint.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+
+    android:background="#F5A3B7"
+    tools:context="com.example.hp.bakeology.Login">
+
+    <RelativeLayout
+        android:layout_width="368dp"
+        android:layout_height="495dp"
+        tools:layout_editor_absoluteX="8dp"
+        tools:layout_editor_absoluteY="8dp">
+
+        <TextView
+            android:id="@+id/textView31"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="81dp"
+            android:text="Username"
+            android:textAppearance="@style/TextAppearance.AppCompat.Body2"
+            android:textSize="25dp"
+
+            android:layout_alignParentTop="true"
+            android:layout_alignParentLeft="true"
+            android:layout_alignParentStart="true" />
+
+        <TextView
+            android:id="@+id/textView30"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_alignBottom="@+id/editText8"
+            android:layout_alignParentLeft="true"
+            android:layout_alignParentStart="true"
+            android:layout_marginBottom="26dp"
+            android:text="Password"
+            android:textAppearance="@style/TextAppearance.AppCompat.Body2"
+            android:textSize="25dp"
+            />
+
+        <EditText
+            android:id="@+id/editText7"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+
+            android:layout_marginTop="33dp"
+            android:background="#FFF4FF"
+            android:ems="10"
+
+            android:inputType="textPersonName"
+            android:textSize="23dp"
+            android:layout_alignTop="@+id/textView31"
+            android:layout_alignParentLeft="true"
+            android:layout_alignParentStart="true"
+            android:layout_alignParentRight="true"
+            android:layout_alignParentEnd="true" />
+
+        <EditText
+            android:id="@+id/editText8"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+
+            android:layout_alignParentEnd="true"
+            android:layout_alignParentLeft="true"
+
+            android:layout_alignParentRight="true"
+            android:layout_alignParentStart="true"
+            android:layout_centerVertical="true"
+            android:background="#FFF4FF"
+            android:ems="10"
+            android:inputType="textPassword"
+            android:textSize="23dp" />
+
+        <Button
+            android:id="@+id/button5"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_above="@+id/button9"
+            android:layout_alignParentLeft="true"
+            android:layout_alignParentStart="true"
+            android:layout_marginBottom="13dp"
+            android:background="@android:color/holo_blue_dark"
+            android:onClick="baker"
+            android:text="I AM A Baker"
+            android:textSize="25dp" />
+
+        <Button
+            android:id="@+id/button9"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_alignParentBottom="true"
+            android:layout_alignParentLeft="true"
+            android:layout_alignParentStart="true"
+            android:layout_marginBottom="54dp"
+            android:background="@android:color/holo_blue_dark"
+            android:onClick="customer"
+            android:text="I AM A CUSTOMER"
+            android:textSize="25dp"
+            tools:layout_editor_absoluteX="133dp"
+            tools:layout_editor_absoluteY="332dp" />
+
+    </RelativeLayout>
+
+
+</android.support.constraint.ConstraintLayout>

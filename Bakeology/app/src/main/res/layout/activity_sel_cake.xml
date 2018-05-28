@@ -1,0 +1,189 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.constraint.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#F5A3B7"
+    tools:context="com.example.hp.bakeology.sel_cake">
+
+
+    <RelativeLayout
+        android:layout_width="368dp"
+        android:layout_height="495dp"
+        tools:layout_editor_absoluteX="8dp"
+        tools:layout_editor_absoluteY="8dp">
+
+        <ImageView
+            android:id="@+id/imageView4"
+            android:layout_width="100dp"
+            android:layout_height="100dp"
+
+            app:srcCompat="@drawable/common_google_signin_btn_icon_dark"
+            android:layout_alignParentTop="true"
+            android:layout_centerHorizontal="true"
+            android:layout_marginTop="16dp" />
+
+        <TextView
+            android:id="@+id/textView14"
+            android:layout_width="175dp"
+            android:layout_height="25dp"
+            android:layout_alignParentEnd="true"
+            android:layout_alignParentRight="true"
+            android:layout_alignTop="@+id/textView27"
+            android:layout_toRightOf="@+id/textView27"
+            android:background="#FFF4FF"
+            android:text="TextView" />
+
+        <TextView
+            android:id="@+id/textView18"
+            android:layout_width="175dp"
+            android:layout_height="25dp"
+            android:layout_alignParentEnd="true"
+            android:layout_alignParentRight="true"
+            android:layout_below="@+id/textView14"
+            android:layout_marginTop="15dp"
+            android:layout_toRightOf="@+id/textView29"
+            android:background="#FFF4FF"
+            android:text="TextView" />
+
+        <TextView
+            android:id="@+id/textView19"
+            android:layout_width="175dp"
+            android:layout_height="25dp"
+
+            android:layout_alignParentEnd="true"
+            android:layout_alignParentRight="true"
+            android:layout_marginTop="134dp"
+            android:layout_toRightOf="@+id/textView27"
+            android:background="#FFF4FF"
+            android:text="TextView" />
+
+        <TextView
+            android:id="@+id/textView20"
+            android:layout_width="175dp"
+            android:layout_height="25dp"
+            android:layout_alignParentEnd="true"
+            android:layout_alignParentRight="true"
+            android:layout_below="@+id/textView18"
+            android:layout_marginTop="19dp"
+            android:layout_toRightOf="@+id/textView100"
+            android:background="#FFF4FF"
+            android:text="TextView" />
+
+        <TextView
+            android:id="@+id/textView21"
+            android:layout_width="175dp"
+            android:layout_height="25dp"
+            android:layout_alignParentEnd="true"
+            android:layout_alignParentRight="true"
+            android:layout_alignTop="@+id/textView31"
+            android:layout_toRightOf="@+id/textView31"
+            android:background="#FFF4FF"
+            android:text="TextView" />
+
+        <TextView
+            android:id="@+id/textView22"
+            android:layout_width="175dp"
+            android:layout_height="25dp"
+            android:layout_alignParentEnd="true"
+            android:layout_alignParentRight="true"
+            android:layout_alignTop="@+id/textView32"
+            android:layout_toRightOf="@+id/textView32"
+            android:background="#FFF4FF"
+            android:text="TextView" />
+
+        <Button
+            android:id="@+id/button16"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+
+            android:layout_alignParentBottom="true"
+            android:layout_alignParentLeft="true"
+            android:layout_alignParentStart="true"
+            android:layout_marginBottom="27dp"
+            android:background="@android:color/holo_blue_dark"
+            android:onClick="dojob"
+            android:text="Order" />
+
+        <TextView
+            android:id="@+id/textView8"
+            android:layout_width="175dp"
+            android:layout_height="25dp"
+
+
+            android:layout_alignParentLeft="true"
+            android:layout_alignParentStart="true"
+            android:layout_alignTop="@+id/textView19"
+            android:background="#FC5299"
+            android:text="Flavour :"
+            android:textAppearance="@style/TextAppearance.AppCompat.Body2"
+            android:textSize="20dp" />
+
+        <TextView
+            android:id="@+id/textView27"
+            android:layout_width="175dp"
+            android:layout_height="25dp"
+            android:layout_alignParentLeft="true"
+            android:layout_alignParentStart="true"
+            android:layout_below="@+id/textView19"
+            android:layout_marginTop="12dp"
+
+            android:background="#FC5299"
+            android:text="Cake Name :"
+            android:textAppearance="@style/TextAppearance.AppCompat.Body2"
+            android:textSize="20dp" />
+
+        <TextView
+            android:id="@+id/textView29"
+            android:layout_width="175dp"
+            android:layout_height="25dp"
+
+            android:layout_alignParentLeft="true"
+            android:layout_alignParentStart="true"
+            android:layout_alignTop="@+id/textView18"
+            android:background="#FC5299"
+            android:text="Baker :"
+            android:textAppearance="@style/TextAppearance.AppCompat.Body2"
+            android:textSize="20dp" />
+
+        <TextView
+            android:id="@+id/textView100"
+            android:layout_width="175dp"
+            android:layout_height="25dp"
+            android:layout_alignParentLeft="true"
+            android:layout_alignParentStart="true"
+            android:layout_alignTop="@+id/textView20"
+            android:background="#FC5299"
+            android:text="Discription :"
+            android:textAppearance="@style/TextAppearance.AppCompat.Body2"
+            android:textSize="20dp" />
+
+        <TextView
+            android:id="@+id/textView31"
+            android:layout_width="175dp"
+            android:layout_height="25dp"
+            android:layout_alignParentLeft="true"
+            android:layout_alignParentStart="true"
+            android:layout_below="@+id/textView20"
+            android:layout_marginTop="27dp"
+            android:background="#FC5299"
+            android:text="Category :"
+            android:textAppearance="@style/TextAppearance.AppCompat.Body2"
+            android:textSize="20dp" />
+
+        <TextView
+            android:id="@+id/textView32"
+            android:layout_width="175dp"
+            android:layout_height="25dp"
+            android:layout_alignParentLeft="true"
+            android:layout_alignParentStart="true"
+            android:layout_below="@+id/textView21"
+            android:layout_marginTop="24dp"
+            android:background="#FC5299"
+            android:text="Price :"
+            android:textAppearance="@style/TextAppearance.AppCompat.Body2"
+            android:textSize="20dp" />
+
+    </RelativeLayout>
+</android.support.constraint.ConstraintLayout>
